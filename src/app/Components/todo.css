@@ -19,7 +19,6 @@ input{
     font-size: 18px;
     border: none;
     background-color: whitesmoke;
-
 }
 
 input:focus{
@@ -34,6 +33,7 @@ button{
     color: #fff;
     border-radius:8px ;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
