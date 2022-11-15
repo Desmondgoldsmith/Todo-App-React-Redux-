@@ -2,6 +2,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 30px;
 }
 
 .form_cls{
@@ -16,6 +17,13 @@ input{
     width: 700px;
     font-size: 18px;
     border: none;
+    background-color: whitesmoke;
 
 }
+
+input:focus{
+    outline: none;
+}
+
+
 
