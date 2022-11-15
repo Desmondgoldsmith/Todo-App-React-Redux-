@@ -3,6 +3,10 @@ import './todo.css'
 
 function Todo() {
     const [todo,setTodo] = useState("")
+
+    const addTodos = () => {       
+        <h1>Big Heads</h1>
+}
   return (
     <div className='Todo'>
     <form className='form_cls'>
