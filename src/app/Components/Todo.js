@@ -6,7 +6,7 @@ function Todo() {
   return (
     <div className='Todo'>
     <form className='form_cls'>
-        <input className='input_cls' ></input>
+        <input className='input_cls' value = {todo}></input>
         <button className='btn_cls'>Add Todo</button>
     </form>
     </div>
