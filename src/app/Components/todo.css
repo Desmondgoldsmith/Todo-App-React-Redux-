@@ -15,7 +15,7 @@
     border-radius: 8px;
 }
 input{
-    width: 701px;
+    width: 701.9px;
     font-size: 18px;
     border: none;
     background-color: whitesmoke;
@@ -27,7 +27,7 @@ input:focus{
 }
 
 button{
-    height: 30px;
+    height: 28px;
     margin-left: 25px;
     border: none;
     background-color: rgb(1, 90, 149);
