@@ -12,7 +12,7 @@
     margin-right: auto;
     display: block;
     height: 28px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 input{
     width: 701.9px;
@@ -28,11 +28,12 @@ input:focus{
 
 button{
     height: 28px;
-    margin-left: 25px;
+    margin-left: 20px;
     border: none;
     background-color: rgb(1, 90, 149);
     color: #fff;
     border-radius:8px ;
+    font-weight: 600;
 }
 
 
