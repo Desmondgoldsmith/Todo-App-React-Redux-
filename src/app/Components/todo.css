@@ -1,0 +1,10 @@
+.Todo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: lightgray;
+}
+
+.form_cls{
+    background-color: whitesmoke;
+}
