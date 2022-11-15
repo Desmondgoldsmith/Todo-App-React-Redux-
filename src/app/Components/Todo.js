@@ -7,7 +7,7 @@ function Todo() {
     <div className='Todo'>
     <form className='form_cls'>
         <input className='input_cls' value = {todo} onChange = {(e)=>setTodo(e.target.value)}/>
-        <button className='btn_cls'>Add Todo</button>
+        <button className='btn_cls' onClick={addTodos}>Add Todo</button>
     </form>
     </div>
   )
