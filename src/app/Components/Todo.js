@@ -3,7 +3,13 @@ import './todo.css'
 
 function Todo() {
   return (
-    <div>Todo</div>
+    <div className='Todo'>
+    <form className='form_cls'>
+        <input className='input_cls'></input>
+        <button className='btn_cls'>Add Todo</button>
+
+    </form>
+    </div>
   )
 }
 
