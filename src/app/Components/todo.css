@@ -25,5 +25,12 @@ input:focus{
     outline: none;
 }
 
+button{
+    height: 30px;
+    margin-left: 23px;
+    border: none;
+    background-color: rgb(1, 90, 149);
+    color: #fff;
+}
 
 
