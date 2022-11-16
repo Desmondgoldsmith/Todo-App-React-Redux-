@@ -7,6 +7,7 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
     const [status,setStatus] = useState('Incomplete')
 
     const formSubmit = (e) =>{
+      e.preventDefault()
       console.log(title,status)
     }
 
