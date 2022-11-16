@@ -75,11 +75,10 @@ form > .title{
 form{
 	width: 100%;
 }
-
-form > label {
-    font-size: 1.6rem;
-    color: black;
+form >h1{
+	text-align: center;
 }
+
 
 input,select {
 			margin-top: 0.5rem;
