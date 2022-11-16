@@ -4,7 +4,10 @@ import CloseIcon from '@mui/icons-material/Close';
 
 function Todomodel({openModel,setopenModel}) { //distructure the props obtained from the Todomodel page
   return (
-    <div className='model'>
+   <div>
+   {/* what i'm basically saying here is that , if openModel is true then show the form */}
+   {openModel && (
+   <div className='model'>
     <div className='container'>
      <div className = 'close_button'>
        <CloseIcon />
@@ -26,6 +29,8 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
      </form>
     </div>
     </div>
+    )}
+</div>
   )
 }
 
