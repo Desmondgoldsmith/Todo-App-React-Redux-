@@ -9,16 +9,15 @@ function Todomodel() {
      <div className = 'close_button'>
        <CloseIcon />
      </div>
-     <form>
+     <form className='form'>
         <h1>Add Todo</h1>
         <label className='title'>Title
-        <input type = "text" /> 
+        <input type = "text" className='title'/> 
         </label>
         <label className='sel_status'>Status
-        <select>
-        <option value="all">all</option>
+        <select className='status'>
+        <option value="complete">complete</option>
         <option value="Incomplete">Incomplete</option>
-        <option selected value="Complete">Complete</option>
 </select> 
         </label>
      </form>
