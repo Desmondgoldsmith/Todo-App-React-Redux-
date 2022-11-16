@@ -52,7 +52,7 @@ form > .title{
 	color: black;
 	font-size: 20px;
 	font-weight: 600;
-	margin-bottom: 2rem;
+	margin-bottom: 20px;
     width: 100px;
 	text-transform: capitalize;
     display: flex;
@@ -61,6 +61,15 @@ form > .title{
 .title>.title_input{
     font-size: 14px;
     width: 480px;
+}
+.sel_status{
+    font-size: 20px;
+	font-weight: 600;
+
+}
+.sel_status > .status{
+    font-size: 14px;
+    width: 510px;
 }
 
 
