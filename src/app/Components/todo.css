@@ -33,6 +33,7 @@
     border-radius: 8px;
     color:rgb(227, 224, 224);
     cursor: pointer;
+    width: 100px;
 
 }
 select:focus{
