@@ -15,10 +15,9 @@ function Todo() {
 </select>
     </div>
 
-       <div className='todoModel'>
+      
         <Todomodel />
-       </div>
-   
+    
     </div>
   )
 }
