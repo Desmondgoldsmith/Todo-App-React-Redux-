@@ -24,7 +24,7 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
       >
        <CloseIcon />
      </div>
-     <form className='form' onSubmit={formSubmit} //passing the submitted values to a function (formSubmit)
+     <form className='form' onSubmit={(e)=>formSubmit(e)} //passing the submitted values to a function (formSubmit)
      >
         <h1>Add Todo</h1>
         <label className='title'>Title
