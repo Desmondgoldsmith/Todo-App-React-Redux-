@@ -9,7 +9,10 @@ function Todomodel() {
      <div className = 'close_button'>
        <CloseIcon />
      </div>
-    <h1>Todomodel</h1>
+     <form>
+        <h1>Add Todo</h1>
+        <label/>
+     </form>
     </div>
     </div>
   )
