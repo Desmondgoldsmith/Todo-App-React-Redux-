@@ -11,7 +11,9 @@ function Todomodel() {
      </div>
      <form>
         <h1>Add Todo</h1>
-        <label/>
+        <label className='title'>Title
+        <input type = "text" /> 
+        </label>
      </form>
     </div>
     </div>
