@@ -9,7 +9,12 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
    {openModel && (
    <div className='model'>
     <div className='container'>
-     <div className = 'close_button'>
+     <div className = 'close_button'
+      onClick = {()=>setopenModel(false)} //onclicking the button i set openModel to false which hides the form
+      onKeyDown = {()=>setopenModel(false)} //same happens here ... the keyDown event fires everytime incase onClick fails 
+      tabIndex = {0} //allows focus on an element
+      role = "button" // giving the div a button functionality
+      >
        <CloseIcon />
      </div>
      <form className='form'>

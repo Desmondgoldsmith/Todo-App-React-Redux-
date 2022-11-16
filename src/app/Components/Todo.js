@@ -4,7 +4,7 @@ import Todomodel from './Todomodel'
 
 function Todo() {
   // state to store the status of the {Todomodel} to command it to open or close
-  const [openModel,setopenModel] = useState(false)
+  const [openModel,setopenModel] = useState(true)
 
   return (
     <div className='Todo'>
