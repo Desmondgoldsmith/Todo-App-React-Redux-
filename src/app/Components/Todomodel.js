@@ -5,6 +5,9 @@ function Todomodel() {
   return (
     <div className='model'>
     <div className='container'>
+     <div className = 'close_button'>
+
+     </div>
     <h1>Todomodel</h1>
     </div>
     </div>
