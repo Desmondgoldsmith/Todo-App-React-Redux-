@@ -14,6 +14,9 @@ function Todomodel() {
         <label className='title'>Title
         <input type = "text" /> 
         </label>
+        <label className='sel_status'>Status
+        <input type = "text" /> 
+        </label>
      </form>
     </div>
     </div>
