@@ -6,7 +6,7 @@ function Todo() {
     <div className='Todo'>
     <h1>TODO LIST</h1>
     <div className = 'buttons'>
-      <button>Click me</button>
+      <button>Add Task</button>
       <select>
         <option value="all">all</option>
         <option value="Incomplete">Incomplete</option>
