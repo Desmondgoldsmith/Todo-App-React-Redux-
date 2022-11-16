@@ -20,6 +20,9 @@ function Todomodel() {
         <option value="Incomplete">Incomplete</option>
         </select> 
         </label>
+        <button>Add Task</button>
+        <button>Cancle</button>
+        
      </form>
     </div>
     </div>
