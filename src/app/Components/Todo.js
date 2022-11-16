@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './todo.css'
+import Todomodel from './Todomodel'
 
 function Todo() {
   return (
@@ -14,6 +15,9 @@ function Todo() {
 </select>
     </div>
 
+       <div className='todoModel'>
+        <Todomodel />
+       </div>
    
     </div>
   )
