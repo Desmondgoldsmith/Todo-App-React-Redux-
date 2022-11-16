@@ -15,7 +15,11 @@ function Todomodel() {
         <input type = "text" /> 
         </label>
         <label className='sel_status'>Status
-        <input type = "text" /> 
+        <select>
+        <option value="all">all</option>
+        <option value="Incomplete">Incomplete</option>
+        <option selected value="Complete">Complete</option>
+</select> 
         </label>
      </form>
     </div>
