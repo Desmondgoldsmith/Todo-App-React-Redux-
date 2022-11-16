@@ -21,3 +21,7 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+.buttons>button:hover{
+    background-color: rgb(130, 96, 245);
+}
