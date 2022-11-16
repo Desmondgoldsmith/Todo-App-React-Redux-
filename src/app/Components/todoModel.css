@@ -79,13 +79,21 @@ form >h1{
 	text-align: center;
 }
 
+form > button{
+	padding: 10px;
+	font-weight: 600;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
 
 input,select {
-			margin-top: 0.5rem;
-			margin-bottom: 2rem;
+			margin-top: 0.3rem;
+			margin-bottom: 1.5rem;
 			width: 100%;
 			padding: 1rem;
 			border: none;
 			background-color: white;
-			font-size: 1.6rem;
+			font-size: 1.3rem;
+			border-radius: 8px;
 }
