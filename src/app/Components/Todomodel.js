@@ -25,7 +25,7 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
         <input type = "text" value = {title} onChange = {(e)=>setTitle(e.target.value)} className='title_input'/> 
         </label>
         <label className='sel_status'>Status
-        <select className='status'>
+        <select className='status' value = {status} onChange = {(e)=>setStatus(e.target.value)}>
         <option value="complete">complete</option>
         <option value="Incomplete">Incomplete</option>
         </select> 
