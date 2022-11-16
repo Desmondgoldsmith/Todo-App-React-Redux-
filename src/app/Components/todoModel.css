@@ -92,9 +92,21 @@ form > button{
 	background-color: rgb(82, 136, 0);
 	color: white;
 }
+.add:hover{
+	background-color: rgb(173, 240, 71);
+	transition: 0.8s ease-in-out;
+	color: black;
+}
+
 .remove{
-	background-color: rgb(82, 136, 0);
+	background-color: rgb(214, 62, 2);
 	color: white;
+}
+
+.remove:hover{
+	background-color: rgb(215, 78, 23);
+	transition: 0.8s ease-in-out;
+	color: black;
 }
 
 
