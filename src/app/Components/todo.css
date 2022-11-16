@@ -27,13 +27,15 @@
 }
 
 .buttons>select{
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(149, 149, 149);
     border:none;
     font-weight: 700;
-}
+    border-radius: 8px;
+    color:rgb(227, 224, 224);
+    cursor: pointer;
 
-.buttons>select:active{
+}
+select:focus{
     outline: none;
-    border:none;
 }
 
