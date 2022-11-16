@@ -88,6 +88,15 @@ form > button{
 	margin:5px;
 }
 
+.add{
+	background-color: rgb(82, 136, 0);
+	color: white;
+}
+.remove{
+	background-color: rgb(82, 136, 0);
+	color: white;
+}
+
 
 input,select {
 			margin-top: 0.3rem;
