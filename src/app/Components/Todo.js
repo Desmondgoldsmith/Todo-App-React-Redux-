@@ -10,7 +10,9 @@ function Todo() {
     <div className='Todo'>
     <h1>TODO LIST</h1>
     <div className = 'buttons'>
-      <button>Add Task</button>
+      <button 
+      onClick = {()=>setopenModel(true)} //setting openModel to true to show the form
+      >Add Task</button>
       <select className='select_todo'>
         <option value="all">all</option>
         <option value="Incomplete">Incomplete</option>
