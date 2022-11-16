@@ -2,7 +2,7 @@ import React from 'react'
 import './todoModel.css'
 import CloseIcon from '@mui/icons-material/Close';
 
-function Todomodel() {
+function Todomodel({openModel,setopenModel}) { //distructure the props obtained from the Todomodel page
   return (
     <div className='model'>
     <div className='container'>
