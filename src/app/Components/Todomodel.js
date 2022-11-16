@@ -4,7 +4,7 @@ import CloseIcon from '@mui/icons-material/Close';
 
 function Todomodel({openModel,setopenModel}) { //distructure the props obtained from the Todomodel page
     const [title,setTitle] = useState('')
-    const [status,setStatus] = useState('')
+    const [status,setStatus] = useState('Incomplete')
     return (
   <div>
     {/* what i'm basically saying here is that , if openModel is true then show the form */}
@@ -31,7 +31,7 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
         </select> 
         </label>
         <button type = "submit" className='add'>Add Task</button>
-        <button type = "button" className='remove'>Cancle</button>
+        <button type = "button" onClick = {()=>setopenModel(false)} className='remove'>Cancle</button>
         
      </form>
     </div>
