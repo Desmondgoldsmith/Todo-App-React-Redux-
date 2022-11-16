@@ -29,4 +29,11 @@
 .buttons>select{
     background-color: rgb(201, 201, 201);
     border:none;
+    font-weight: 700;
 }
+
+.buttons>select:active{
+    outline: none;
+    border:none;
+}
+
