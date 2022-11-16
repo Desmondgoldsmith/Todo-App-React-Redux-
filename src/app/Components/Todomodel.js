@@ -22,7 +22,7 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
      <form className='form'>
         <h1>Add Todo</h1>
         <label className='title'>Title
-        <input type = "text" value = {title} className='title_input'/> 
+        <input type = "text" value = {title} onChange = {(e)=>setTitle(e.target.value)} className='title_input'/> 
         </label>
         <label className='sel_status'>Status
         <select className='status'>
