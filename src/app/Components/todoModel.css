@@ -55,11 +55,12 @@ form > .title{
 	margin-bottom: 2rem;
     width: 100px;
 	text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
 }  
 .title>.title_input{
-    border: 2px solid red;
     font-size: 14px;
-    width: 400px;
+    width: 480px;
 }
 
 
