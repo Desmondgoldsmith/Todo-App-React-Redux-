@@ -50,11 +50,18 @@
  
 form > .title{
 	color: black;
-	font-size: 2rem;
+	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 2rem;
+    width: 100px;
 	text-transform: capitalize;
 }  
+.title>.title_input{
+    border: 2px solid red;
+    font-size: 14px;
+    width: 400px;
+}
+
 
 form{
 	width: 100%;

@@ -12,7 +12,7 @@ function Todomodel() {
      <form className='form'>
         <h1>Add Todo</h1>
         <label className='title'>Title
-        <input type = "text" className='title'/> 
+        <input type = "text" className='title_input'/> 
         </label>
         <label className='sel_status'>Status
         <select className='status'>
