@@ -18,7 +18,7 @@ function Todomodel() {
         <select className='status'>
         <option value="complete">complete</option>
         <option value="Incomplete">Incomplete</option>
-</select> 
+        </select> 
         </label>
      </form>
     </div>
