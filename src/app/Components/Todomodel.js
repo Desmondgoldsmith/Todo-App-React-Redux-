@@ -1,11 +1,13 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './todoModel.css'
 import CloseIcon from '@mui/icons-material/Close';
 
 function Todomodel({openModel,setopenModel}) { //distructure the props obtained from the Todomodel page
-  return (
-   <div>
-   {/* what i'm basically saying here is that , if openModel is true then show the form */}
+    const [title,setTitle] = useState('')
+    const [status,setStatus] = useState('')
+    return (
+  <div>
+    {/* what i'm basically saying here is that , if openModel is true then show the form */}
    {openModel && (
    <div className='model'>
     <div className='container'>
@@ -20,7 +22,7 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
      <form className='form'>
         <h1>Add Todo</h1>
         <label className='title'>Title
-        <input type = "text" className='title_input'/> 
+        <input type = "text" value = {title} className='title_input'/> 
         </label>
         <label className='sel_status'>Status
         <select className='status'>

@@ -4,7 +4,7 @@ import Todomodel from './Todomodel'
 
 function Todo() {
   // state to store the status of the {Todomodel} to command it to open or close
-  const [openModel,setopenModel] = useState(true)
+  const [openModel,setopenModel] = useState(false) //openModel set to false hence Todomodel is hidden on page load
 
   return (
     <div className='Todo'>
