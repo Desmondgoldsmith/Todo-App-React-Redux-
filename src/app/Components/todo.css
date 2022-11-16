@@ -3,7 +3,6 @@
 }
 
 .buttons{
-    border: 2px solid red;
     margin-left: auto;
     margin-right: auto;
     width: 800px;
@@ -19,5 +18,6 @@
     background-color: rgb(113, 72, 248);
     color:white;
     border: none;
-    
+    border-radius: 10px;
+    cursor: pointer;
 }
