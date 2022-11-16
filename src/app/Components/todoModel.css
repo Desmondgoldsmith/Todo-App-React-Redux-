@@ -110,7 +110,7 @@ form > button{
 }
 
 
-input,select {
+input,.status {
 			margin-top: 0.3rem;
 			margin-bottom: 1.5rem;
 			width: 100%;

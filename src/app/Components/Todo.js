@@ -11,7 +11,7 @@ function Todo() {
     <h1>TODO LIST</h1>
     <div className = 'buttons'>
       <button>Add Task</button>
-      <select>
+      <select className='select_todo'>
         <option value="all">all</option>
         <option value="Incomplete">Incomplete</option>
         <option selected value="Complete">Complete</option>

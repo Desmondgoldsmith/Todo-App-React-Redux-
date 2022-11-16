@@ -26,7 +26,7 @@
     background-color: rgb(130, 96, 245);
 }
 
-.buttons>select{
+.buttons>.select_todo{
     background-color: rgb(149, 149, 149);
     border:none;
     font-weight: 700;
@@ -36,7 +36,7 @@
     width: 100px;
 
 }
-select:focus{
+.select_todo:focus{
     outline: none;
 }
 
