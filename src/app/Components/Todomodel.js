@@ -3,7 +3,11 @@ import './todoModel.css'
 
 function Todomodel() {
   return (
-    <div className='model'>Todomodel</div>
+    <div className='model'>
+    <div className='container'>
+    <h1>Todomodel</h1>
+    </div>
+    </div>
   )
 }
 

@@ -9,5 +9,17 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    color:white
+}
+
+.container {
+	background-color: white;
+	max-width: 500px;
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	border-radius: 8px;
+	position: relative;
 }
