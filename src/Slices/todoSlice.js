@@ -22,7 +22,9 @@ export const todoSlice = createSlice({
         addTodo : (state, action) => {
             state.todoList.push(action.payload) //add new values to the todo list
             const todoList = window.localStorage.getItem('todoList')
-            
+            if(todoList){
+                const todoListArray = todoList.split
+            }
         }
     }
 
