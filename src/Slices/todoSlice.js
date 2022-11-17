@@ -20,8 +20,8 @@ export const todoSlice = createSlice({
     initialState : initialValue,
     reducers : {
         addTodo : (state, action) => {
-            state.todoList.push() //add new values to the todo list
-            
+            state.todoList.push(action.payload) //add new values to the todo list
+            const todoList = window.localStorage.
         }
     }
 
