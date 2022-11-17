@@ -10,7 +10,11 @@ const getinitialTodo = () => {
     //once i get the values, i parse them to JSON  fromat.
 } 
 const initialValue = {
-    //getting the todoList values from the local storage
-    //a function to get the todo values 
+    //saving the todos values we obtained from the getinitialTodo function and save it to the todoList variable
     todoList: getinitialTodo()
 }
+
+
+export const todoSlice = createSlice({
+    
+})
