@@ -19,7 +19,10 @@ export const todoSlice = createSlice({
     name : 'todo',
     initialState : initialValue,
     reducers : {
-        addTodo : (state, action) => {}
+        addTodo : (state, action) => {
+            state.todoList.push() //add new values to the todo list
+            
+        }
     }
 
 })
