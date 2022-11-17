@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const getinitialTodo = () => {
     //getting todo values from local storage
-    const localtodoList = window.localStorage.getItem('todo')
+    const localtodoList = window.localStorage.getItem('todoList')
 } 
 const initialValue = {
     //getting the todoList values from the local storage
