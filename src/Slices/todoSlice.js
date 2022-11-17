@@ -23,7 +23,7 @@ export const todoSlice = createSlice({
             state.todoList.push(action.payload) //add new values to the todo list
             const todoList = window.localStorage.getItem('todoList')
             if(todoList){
-                const todoListArray = todoList.split
+                const todoListArray = JSON.parse(todoList)
             }
         }
     }
