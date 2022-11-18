@@ -1,11 +1,13 @@
 import React from 'react'
 
-function IndividualTodos() {
+function IndividualTodos({todo}) {
   return (
     <div className='todoItem'>
     <div className='todoDetails'>
-            individualTodos
-
+        [] //checkbox
+    <div className='text'>
+     <p>{todo.title}</p>
+    </div>
     </div>
     </div>
   )
