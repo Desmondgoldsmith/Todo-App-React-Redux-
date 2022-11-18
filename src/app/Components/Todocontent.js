@@ -13,7 +13,7 @@ function Todocontent() {
     <div className='todo_c'>
     {sortedTodo && sortedTodo.length > 0 
     ? 
-    sortedTodo.map((todo)=> <IndividualTodos key={key.id} todo = {todo}/>)
+    sortedTodo.map((todo)=> <IndividualTodos key={todo.id} todo = {todo}/>)
     :
     'NO TODO FOUND'
     }
