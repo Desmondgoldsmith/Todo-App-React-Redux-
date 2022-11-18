@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import './todoModel.css'
 import CloseIcon from '@mui/icons-material/Close';
 import { useDispatch } from 'react-redux';
+import { addTodo } from '../../Slices/todoSlice';
 
 function Todomodel({openModel,setopenModel}) { //distructure the props obtained from the Todomodel page
     const [title,setTitle] = useState('')
@@ -11,7 +12,9 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
     const formSubmit = (e) =>{
       e.preventDefault()
       if(title && status){
-        dispatch()
+        dispatch(addTodo({
+          
+        }))
       }
       console.log(title,status)
     }
