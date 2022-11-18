@@ -11,7 +11,9 @@ function App() {
      <Todo />
      <Todocontent/>
       </div>
-     <Toaster toastOptions={{
+     <Toaster
+     position='bottom-right'
+      toastOptions={{
       style: {
         fontSize: '18px',
       }
