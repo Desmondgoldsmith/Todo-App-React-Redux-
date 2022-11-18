@@ -11,7 +11,11 @@ function App() {
      <Todo />
      <Todocontent/>
       </div>
-     <Toaster/>
+     <Toaster toastOptions={{
+      style: {
+        fontSize: '18px',
+      }
+     }}/>
     </>
   );
 }
