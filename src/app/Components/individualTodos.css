@@ -21,8 +21,9 @@
 .todoDetails{
     display: flex;
 	align-items: center;
-	/* justify-content: flex-start; */
-	/* gap: 1rem; */
+	justify-content: flex-start;
+	gap: 1rem;
+
 }
 
 .text{
@@ -39,5 +40,4 @@
 	font-weight: 300;
 	margin-top: -0.2rem;
 	color: black;
-    border: 2px solid red;
 }
