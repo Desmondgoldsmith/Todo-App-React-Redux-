@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import IndividualTodos from './individualTodos'
 import './todocontent.css'
 
 function Todocontent() {
@@ -12,7 +13,7 @@ function Todocontent() {
     <div className='todo_c'>
     {sortedTodo && sortedTodo.length > 0 
     ? 
-    sortedTodo.map((todo)=>todo.title)
+    sortedTodo.map((todo)=> <IndividualTodos todo = {todo}/>)
     :
     'NO TODO FOUND'
     }
