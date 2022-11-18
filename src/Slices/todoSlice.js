@@ -31,7 +31,7 @@ export const todoSlice = createSlice({
                 })
             window.localStorage.setItem('todoList', JSON.stringify(todoListArray))
             }else{
-                window.localStorage.setItem('todoList', JSON.stringify(...action.payload)) //set an empty array when todoList isnt created in the local storage
+                window.localStorage.setItem('todoList', JSON.stringify(...action.payload)) //set an array to store current todo when todoList isnt created in the local storage
 
             }
         }
