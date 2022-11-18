@@ -7,7 +7,7 @@ function IndividualTodos({todo}) {
     <div className='todoDetails'>
         [] 
     <div className='text'>
-     <p>{todo.title}</p>
+     <p className = {todo.item === 'complete' ? 'distinct' : ''}>{todo.title}</p>
     </div>
     </div>
     </div>
