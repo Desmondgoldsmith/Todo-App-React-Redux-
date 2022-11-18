@@ -1,6 +1,9 @@
 // import { format } from 'date-fns'
 import React from 'react'
 import './individualTodos.css'
+import { MdDelete } from "react-icons/md";
+import { MdModeEdit } from "react-icons/md";
+
 
 
 function IndividualTodos({todo}) {
@@ -22,6 +25,8 @@ function IndividualTodos({todo}) {
     </div>
      <div className = 'actions'>
         <div className = 'icons'>
+         <MdDelete/>
+         <MdModeEdit/>
         </div>
      </div>
     </div>
