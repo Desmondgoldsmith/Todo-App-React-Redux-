@@ -4,7 +4,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { useDispatch } from 'react-redux';
 import { addTodo } from '../../Slices/todoSlice';
 import {v4 as uuid} from 'uuid'
-import toastr from 'reactjs-toastr/lib/react-toast';
+import toast from 'react-hot-toast';
 
 function Todomodel({openModel,setopenModel}) { //distructure the props obtained from the Todomodel page
     const [title,setTitle] = useState('')
@@ -21,8 +21,8 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
           time : new Date().toLocaleString(),
         }))
       }
-      toastr.success('Todo Added Successfully')
-      console.log(title,status)
+      toast.success('Todo Added Successfully')
+      // console.log(title,status)
     }
 
     return (

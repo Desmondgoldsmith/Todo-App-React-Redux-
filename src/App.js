@@ -1,8 +1,9 @@
 import React from 'react';
+import { Toaster } from 'react-hot-toast';
 import './App.css';
 import Todo from './app/Components/Todo';
 import Todocontent from './app/Components/Todocontent';
-import {Toastr} from 'reactjs-toastr/lib/react-toast';
+
 function App() {
   return (
     <>
@@ -10,7 +11,7 @@ function App() {
      <Todo />
      <Todocontent/>
       </div>
-     <Toastr/>
+     <Toaster/>
     </>
   );
 }
