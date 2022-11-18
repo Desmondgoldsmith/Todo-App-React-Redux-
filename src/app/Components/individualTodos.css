@@ -31,7 +31,13 @@
 	overflow: hidden;
 }
 
-.distinct{
-    text-decoration: line-through;
-    color: rgb(168, 168, 168);
+
+
+.time{
+    display: block;
+	font-size: 13px;
+	font-weight: 300;
+	margin-top: -0.2rem;
+	color: black;
+    border: 2px solid red;
 }
