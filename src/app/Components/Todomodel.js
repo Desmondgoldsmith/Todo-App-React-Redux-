@@ -21,8 +21,9 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
           time : new Date().toLocaleString(),
         }))  
         toast.success('Todo Added Successfully')
+        setopenModel(false)
       }else{
-        toast.error('Todo Failed To Add')
+        toast.error('Input Field(s) Cannot Be Empty')
       }
       // console.log(title,status)
     }
