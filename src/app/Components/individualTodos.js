@@ -26,7 +26,9 @@ function IndividualTodos({todo}) {
      <div className = 'actions'>
         <div className = 'icons'>
          <MdDelete/>
-         <MdModeEdit/>
+        </div>
+        <div className = 'icons'>
+        <MdModeEdit/>
         </div>
      </div>
     </div>

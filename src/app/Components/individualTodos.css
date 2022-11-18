@@ -48,3 +48,20 @@
 	justify-content: center;
 	gap: 1rem;
 }
+
+.icons{
+    font-size: 2rem;
+	padding: 0.5rem;
+	border-radius: 4px;
+	background-color: lightgray;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: 0.3s ease background-color;
+	
+}
+.icons:hover {
+		background-color: var(--gray-2);
+	}
