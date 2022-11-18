@@ -3,6 +3,7 @@ import './todoModel.css'
 import CloseIcon from '@mui/icons-material/Close';
 import { useDispatch } from 'react-redux';
 import { addTodo } from '../../Slices/todoSlice';
+import {v4 as uuid} from 'uuid'
 
 function Todomodel({openModel,setopenModel}) { //distructure the props obtained from the Todomodel page
     const [title,setTitle] = useState('')
@@ -13,6 +14,7 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
       e.preventDefault()
       if(title && status){
         dispatch(addTodo({
+          id: uuid(),
           
         }))
       }
