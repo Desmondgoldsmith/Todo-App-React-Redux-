@@ -7,9 +7,10 @@ function Todocontent() {
   //sorting the todos based on theit time
   const sortedTodo = [...todoList] //getting a copy of the todos array
   sortedTodo.sort((a,b) => new Date(b.time) - new Date(a.time))
+
   return (
     <div className='todo_c'>
-    Todocontent
+    {sortedTodo && sortedTodo.length > 0 ? 'Show All Results' : 'nothing to show'}
     </div>
   )
 }
