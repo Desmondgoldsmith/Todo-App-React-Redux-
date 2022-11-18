@@ -15,7 +15,7 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
       if(title && status){
         dispatch(addTodo({
           id: uuid(),
-          
+
         }))
       }
       console.log(title,status)
