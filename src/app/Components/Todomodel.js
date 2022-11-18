@@ -17,7 +17,7 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
           id: uuid(),
           title,
           status,
-          time : new Date.toLocalDateString()
+          time : new Date().toLocaleDateString(),
         }))
       }
       console.log(title,status)
