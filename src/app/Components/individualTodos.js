@@ -1,4 +1,5 @@
 import React from 'react'
+import './individualTodos.css'
 
 function IndividualTodos({todo}) {
   return (
