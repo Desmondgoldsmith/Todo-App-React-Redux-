@@ -1,4 +1,4 @@
-import { format } from 'date-fns'
+// import { format } from 'date-fns'
 import React from 'react'
 import './individualTodos.css'
 
@@ -22,7 +22,6 @@ function IndividualTodos({todo}) {
     </div>
      <div className = 'actions'>
         <div className = 'icons'>
-         
         </div>
      </div>
     </div>
