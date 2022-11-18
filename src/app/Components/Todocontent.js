@@ -14,8 +14,9 @@ function Todocontent() {
     {sortedTodo && sortedTodo.length > 0 
     ? 
     sortedTodo.map((todo)=> <IndividualTodos key={todo.id} todo = {todo}/>)
-    :
+    : 
     'NO TODO FOUND'
+    
     }
     </div>
   )
