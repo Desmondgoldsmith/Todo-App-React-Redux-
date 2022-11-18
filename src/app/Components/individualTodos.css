@@ -6,9 +6,23 @@
 	background: white;
 	margin-bottom: 1.5rem;
 	border-radius: 4px;
+    width: 800px;
 	
 }
 .todoItem:last-child {
 		margin-bottom: 0; 
         /* set last item margin buttom none */
 	}
+
+.todoDetails{
+    display: flex;
+	align-items: center;
+	/* justify-content: flex-start; */
+	/* gap: 1rem; */
+}
+
+.text{
+    display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
