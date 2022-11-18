@@ -10,7 +10,10 @@ function Todocontent() {
 
   return (
     <div className='todo_c'>
-    {sortedTodo && sortedTodo.length > 0 ? 'Show All Results' : 'nothing to show'}
+    {sortedTodo && sortedTodo.length > 0 
+    ? 
+    sortedTodo.map((todo)=>todo.title)
+    }
     </div>
   )
 }
