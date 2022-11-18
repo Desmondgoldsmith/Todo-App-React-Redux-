@@ -1,5 +1,7 @@
 import React from 'react'
 import './individualTodos.css'
+import { compareAsc, format } from 'date-fns'
+
 
 function IndividualTodos({todo}) {
   return (
@@ -14,6 +16,7 @@ function IndividualTodos({todo}) {
          :{color:'black',textDecoration:'none'}
          }>
          {todo.title}</p>
+         <p>{format(new Date(todo.time),'p, MM/DD/YYYY')}</p>
     </div>
     </div>
     </div>
