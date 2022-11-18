@@ -22,11 +22,12 @@ export const todoSlice = createSlice({
         addTodo : (state, action) => {
             state.todoList.push(action.payload) //add new values to the todo list
             const todoList = window.localStorage.getItem('todoList')
-            if(todoList){
+            if(todoList){ // basically saying here that if todos are saved successfully we convert it to an array
                 const todoListArray = JSON.parse(todoList)
-                todoListArray.push({
+                todoListArray.push({ // put the recent added values into the array
                     ...action.payload,
                 })
+            window.localStorage.setItem('todoList', JSON.stringify(todoListArray))
             }
         }
     }
