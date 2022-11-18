@@ -30,3 +30,8 @@
 	flex-direction: column;
 	overflow: hidden;
 }
+
+.distinct{
+    text-decoration: line-through;
+    color: rgb(168, 168, 168);
+}

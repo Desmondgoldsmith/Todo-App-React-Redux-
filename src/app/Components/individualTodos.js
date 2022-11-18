@@ -1,3 +1,4 @@
+import { red } from '@mui/material/colors'
 import React from 'react'
 import './individualTodos.css'
 
@@ -7,7 +8,7 @@ function IndividualTodos({todo}) {
     <div className='todoDetails'>
         [] 
     <div className='text'>
-     <p className = {todo.item === 'complete' ? 'distinct' : ''}>{todo.title}</p>
+     <p style={todo.status === 'Incomplete' ? {color:'lightgray',textDecoration:'line-through'}:{color:'black',textDecoration:'none'}}>{todo.title}</p>
     </div>
     </div>
     </div>
