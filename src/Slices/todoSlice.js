@@ -6,7 +6,7 @@ const getinitialTodo = () => {
     if(localtodoList){
         return JSON.parse(localtodoList)
     }
-    window.localStorage.setItem('todoList',JSON.stringify([]))//return an empty array when todo is empty
+    window.localStorage.setItem('todoList',JSON.stringify([]))//create an empty array when todo is empty
     return []
     //basically what i'm doing here is that im getting the todos values from the local storage,
     //once i get the values, i parse them to JSON  fromat.
