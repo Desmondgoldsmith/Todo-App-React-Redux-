@@ -13,6 +13,8 @@ function Todocontent() {
     {sortedTodo && sortedTodo.length > 0 
     ? 
     sortedTodo.map((todo)=>todo.title)
+    :
+    'NO TODO FOUND'
     }
     </div>
   )
