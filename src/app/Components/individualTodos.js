@@ -17,8 +17,14 @@ function IndividualTodos({todo}) {
          }>
          {todo.title}</p>
       <p className='time'>{todo.time}</p>
+      {/* <p className='time'>{format(new Date(todo.time), 'p, yyyy-MM-dd')}</p> */}
      </div>
     </div>
+     <div className = 'actions'>
+        <div className = 'icons'>
+         
+        </div>
+     </div>
     </div>
   )
 }
