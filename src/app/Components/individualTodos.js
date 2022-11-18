@@ -8,7 +8,13 @@ function IndividualTodos({todo}) {
     <div className='todoDetails'>
         [] 
     <div className='text'>
-     <p style={todo.status === 'Incomplete' ? {color:'lightgray',textDecoration:'line-through'}:{color:'black',textDecoration:'none'}}>{todo.title}</p>
+     <p style={
+         todo.status === 'Incomplete' 
+         ?
+         {color:'lightgray',textDecoration:'line-through'}
+         :{color:'black',textDecoration:'none'}
+         }>
+         {todo.title}</p>
     </div>
     </div>
     </div>
