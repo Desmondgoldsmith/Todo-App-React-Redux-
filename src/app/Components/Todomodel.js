@@ -19,9 +19,11 @@ function Todomodel({openModel,setopenModel}) { //distructure the props obtained 
           title,
           status,
           time : new Date().toLocaleString(),
-        }))
+        }))  
+        toast.success('Todo Added Successfully')
+      }else{
+        toast.error('Todo Failed To Add')
       }
-      toast.success('Todo Added Successfully')
       // console.log(title,status)
     }
 
