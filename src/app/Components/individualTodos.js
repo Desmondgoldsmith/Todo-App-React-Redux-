@@ -28,7 +28,7 @@ function IndividualTodos({todo}) {
      </div>
     </div>
      <div className = 'actions'>
-        <div className = 'icons'>
+        <div className = 'icons' onClick={}>
          <MdDelete/>
         </div>
         <div className = 'icons'>
