@@ -35,6 +35,10 @@ export const todoSlice = createSlice({
 
             }
         }
+
+        deleteTodo : (state,action) => {
+            
+        }
     }
     
 

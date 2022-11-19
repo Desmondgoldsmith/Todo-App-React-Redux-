@@ -9,7 +9,7 @@ function IndividualTodos({todo}) {
   const deleteTodo = () => {
     console.log("this todo is deleted")
   }
-  
+
   const updateTodo = () => {
     console.log("this todo is updated")
   }
@@ -31,7 +31,7 @@ function IndividualTodos({todo}) {
     </div>
      <div className = 'actions'>
         <div className = 'icons' 
-        onClick={deteteTodo}
+        onClick={deleteTodo}
         onKeyDown = {deleteTodo}
         tabIndex = {0}
         role = "button"
