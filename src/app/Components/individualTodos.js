@@ -38,8 +38,8 @@ function IndividualTodos({todo}) {
     </div>
      <div className = 'actions'>
         <div className = 'icons' 
-        onClick={deleteTodo}
-        onKeyDown = {deleteTodo}
+        onClick={()=> deleteTodo()}
+        onKeyDown = {()=> deleteTodo()}
         tabIndex = {0}
         role = "button"
         >
