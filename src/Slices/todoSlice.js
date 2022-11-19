@@ -39,7 +39,7 @@ export const todoSlice = createSlice({
         const todoList = window.localStorage.getItem('todoList');
         if(todoList){
             const todoListArray = JSON.parse(todoList)
-            todoListArray.foreach((todo,index) => {
+            todoListArray.forEach((todo,index) => {
                 if(todo.id === action.payload){
                     todoListArray.splice(index,1)
                 }
