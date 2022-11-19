@@ -5,9 +5,11 @@ import { MdDelete } from "react-icons/md";
 import { MdModeEdit } from "react-icons/md";
 
 function IndividualTodos({todo}) {
+
   const deleteTodo = () => {
     console.log("this todo is deleted")
   }
+  
   const updateTodo = () => {
     console.log("this todo is updated")
   }
@@ -37,8 +39,8 @@ function IndividualTodos({todo}) {
          <MdDelete/>
         </div>
         <div className = 'icons'
-        onClick={deteteTodo}
-        onKeyDown = {deleteTodo}
+        onClick={updateTodo}
+        onKeyDown = {updateTodo}
         tabIndex = {0}
         role = "button"
         >
