@@ -9,7 +9,7 @@ function IndividualTodos({todo}) {
     console.log("this todo is deleted")
   }
   const updateTodo = () => {
-    console.log("this todo is deleted")
+    console.log("this todo is updated")
   }
   return (
     <div className='todoItem'>
