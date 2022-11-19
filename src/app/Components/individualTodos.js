@@ -30,6 +30,7 @@ function IndividualTodos({todo}) {
      <div className = 'actions'>
         <div className = 'icons' 
         onClick={deteteTodo}
+        onKeyDown = {deleteTodo}
         >
          <MdDelete/>
         </div>
