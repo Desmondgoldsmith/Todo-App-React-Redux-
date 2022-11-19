@@ -47,7 +47,7 @@ function IndividualTodos({todo}) {
         </div>
         <div className = 'icons'
         onClick={()=> updateTodo()}
-        onKeyDown = {updateTodo}
+        onKeyDown = {()=>updateTodo()}
         tabIndex = {0}
         role = "button"
         >
