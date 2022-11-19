@@ -32,6 +32,7 @@ function IndividualTodos({todo}) {
         onClick={deteteTodo}
         onKeyDown = {deleteTodo}
         tabIndex = {0}
+        role = "button"
         >
          <MdDelete/>
         </div>
