@@ -8,7 +8,7 @@ function IndividualTodos({todo}) {
   const deleteTodo = () => {
     console.log("this todo is deleted")
   }
-  const deleteTodo = () => {
+  const updateTodo = () => {
     console.log("this todo is deleted")
   }
   return (
