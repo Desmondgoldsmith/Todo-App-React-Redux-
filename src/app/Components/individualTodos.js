@@ -11,7 +11,7 @@ import toast from 'react-hot-toast';
 function IndividualTodos({todo}) {
   const dispatch = useDispatch()
 
-  const deleteTodo = () => {
+  const deleteTodos = () => {
     dispatch(deleteTodo(todo.id));
     toast.success('Todo Deleted Successfully');
   }
@@ -37,8 +37,8 @@ function IndividualTodos({todo}) {
     </div>
      <div className = 'actions'>
         <div className = 'icons' 
-        onClick={()=> deleteTodo()}
-        onKeyDown = {()=> deleteTodo()}
+        onClick={()=> deleteTodos()}
+        onKeyDown = {()=> deleteTodos()}
         tabIndex = {0}
         role = "button"
         >
