@@ -6,7 +6,7 @@ import { MdModeEdit } from "react-icons/md";
 
 function IndividualTodos({todo}) {
   const deleteTodo = () => {
-    
+    console.log("this todo is deleted")
   }
   return (
     <div className='todoItem'>
