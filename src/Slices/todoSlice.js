@@ -43,9 +43,10 @@ export const todoSlice = createSlice({
                 if(todo.id === action.payload){
                     todoListArray.splice(index,1)
                 }
-                window.localStorage.setItem('todoList',JSON.stringify(todoListArray))
+                
+            });
+            window.localStorage.setItem('todoList',JSON.stringify(todoListArray))
                 state.todoList = todoListArray
-            })
 
         }
         

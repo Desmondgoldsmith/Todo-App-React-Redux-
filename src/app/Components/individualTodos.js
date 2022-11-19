@@ -12,9 +12,8 @@ function IndividualTodos({todo}) {
   const dispatch = useDispatch()
 
   const deleteTodo = () => {
-    dispatch(deleteTodo(todo.id))
-    console.log('deleting.....')
-    toast.success("Todo deleted successfully")
+    dispatch(deleteTodo(todo.id));
+    toast.success('Todo Deleted Successfully');
   }
 
   const updateTodo = () => {
