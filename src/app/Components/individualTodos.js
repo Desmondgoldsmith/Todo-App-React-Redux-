@@ -36,7 +36,12 @@ function IndividualTodos({todo}) {
         >
          <MdDelete/>
         </div>
-        <div className = 'icons'>
+        <div className = 'icons'
+        onClick={deteteTodo}
+        onKeyDown = {deleteTodo}
+        tabIndex = {0}
+        role = "button"
+        >
         <MdModeEdit/>
         </div>
      </div>
