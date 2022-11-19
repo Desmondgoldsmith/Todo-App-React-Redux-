@@ -4,9 +4,10 @@ import './individualTodos.css'
 import { MdDelete } from "react-icons/md";
 import { MdModeEdit } from "react-icons/md";
 
-
-
 function IndividualTodos({todo}) {
+  const deleteTodo = () => {
+    
+  }
   return (
     <div className='todoItem'>
     <div className='todoDetails'>
