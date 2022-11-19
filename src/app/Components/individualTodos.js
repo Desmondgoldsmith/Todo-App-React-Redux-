@@ -4,7 +4,8 @@ import './individualTodos.css'
 import { MdDelete } from "react-icons/md";
 import { MdModeEdit } from "react-icons/md";
 import { useDispatch } from 'react-redux';
-import {deleteTodo} from "../Slices/todoSlice"
+import {deleteTodo} from '../../Slices/todoSlice';
+
 import toast from 'react-hot-toast';
 
 function IndividualTodos({todo}) {
