@@ -46,7 +46,7 @@ function IndividualTodos({todo}) {
          <MdDelete/>
         </div>
         <div className = 'icons'
-        onClick={updateTodo}
+        onClick={()=> updateTodo()}
         onKeyDown = {updateTodo}
         tabIndex = {0}
         role = "button"
