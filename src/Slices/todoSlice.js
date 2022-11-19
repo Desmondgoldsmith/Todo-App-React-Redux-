@@ -35,20 +35,10 @@ export const todoSlice = createSlice({
 
             }
         },
+     deleteTodo: (state,action) => {
 
-        deleteTodo : (state,action) => {
-          const todoList = window.localStorage.getItem('todoList');
-          if(todoList){
-            const todoListArray = JSON.parse(todoList)
-            todoListArray.foreach(todo,index) => {
-               if(todo.id == action.payload){
-                   todoListArray.splice(index,1)
-
-               }
-            }
-            
-          }
-        }
+     }
+       
     }
     
 
