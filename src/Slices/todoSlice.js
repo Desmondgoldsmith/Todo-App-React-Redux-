@@ -37,6 +37,8 @@ export const todoSlice = createSlice({
         },
      deleteTodo: (state,action) => {
         const todoList = window.localStorage.getItem('todoList');
+        const todoListArray = JSON.parse(todoList)
+        
      }
        
     }
