@@ -13,6 +13,7 @@ function IndividualTodos({todo}) {
 
   const deleteTodo = () => {
     dispatch(deleteTodo(todo.id))
+    console.log('deleting.....')
     toast.success("Todo deleted successfully")
   }
 
