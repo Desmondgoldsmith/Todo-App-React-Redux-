@@ -34,10 +34,10 @@ export const todoSlice = createSlice({
                 window.localStorage.setItem('todoList', JSON.stringify(...action.payload)) //set an array to store current todo when todoList isnt created in the local storage
 
             }
-        }
+        },
 
         deleteTodo : (state,action) => {
-            
+          const todoList = window.localStorage.getItem('todoList');
         }
     }
     
