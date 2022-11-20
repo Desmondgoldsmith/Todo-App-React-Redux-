@@ -44,7 +44,8 @@ export const todoSlice = createSlice({
                     todoListArray.splice(index,1)
                 }
             })
-            window.localStorage.getItem('todoList',JSON.stringify(todoListArray))
+            window.localStorage.setItem('todoList',JSON.stringify(todoListArray))
+            state.todoList = todoListArray
         }
      }
        
