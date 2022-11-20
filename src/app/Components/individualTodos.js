@@ -6,9 +6,11 @@ import { MdModeEdit } from "react-icons/md";
 import { useDispatch } from 'react-redux';
 import {deleteTodo} from '../../Slices/todoSlice';
 import toast from 'react-hot-toast';
+import Todomodel from './Todomodel';
 
-function IndividualTodos({todo,update,setUpdate,openModel,setopenModel}) {
+function IndividualTodos({todo,update,setUpdate}) {
   const dispatch = useDispatch()
+  const [openModel,setopenModel] = useState('false')
 
   const deleteTodos = () => {
     dispatch(deleteTodo(todo.id));
@@ -54,6 +56,7 @@ function IndividualTodos({todo,update,setUpdate,openModel,setopenModel}) {
         </div>
      </div>
     </div>
+    <Todomodel/>
 </>
   )
 }
