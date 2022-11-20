@@ -10,7 +10,7 @@ import Todomodel from './Todomodel';
 
 function IndividualTodos({todo,update,setUpdate}) {
   const dispatch = useDispatch()
-  const [openModel,setopenModel] = useState('false')
+  const [openModel,setopenModel] = useState(false)
 
   const deleteTodos = () => {
     dispatch(deleteTodo(todo.id));
