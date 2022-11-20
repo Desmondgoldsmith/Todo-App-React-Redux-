@@ -18,7 +18,7 @@ function IndividualTodos({todo,update,setUpdate}) {
   }
 
   const updateTodo = () => {
-    console.log("this todo is updated")
+    setopenModel(true)
   }
   return (
     <>
