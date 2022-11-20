@@ -7,7 +7,7 @@ import { useDispatch } from 'react-redux';
 import {deleteTodo} from '../../Slices/todoSlice';
 import toast from 'react-hot-toast';
 
-function IndividualTodos({todo,update,setUpdate}) {
+function IndividualTodos({todo,update,setUpdate,openModel,setopenModel}) {
   const dispatch = useDispatch()
 
   const deleteTodos = () => {
