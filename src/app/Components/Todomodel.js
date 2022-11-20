@@ -12,19 +12,24 @@ function Todomodel({openModel,setopenModel,update,setUpdate}) { //distructure th
     const dispatch = useDispatch()
    
     const formSubmit = (e) =>{
-      e.preventDefault()
-      if(title && status){
-        dispatch(addTodo({
-          id: uuid(),
-          title,
-          status,
-          time : new Date().toLocaleString(),
-        }))  
-        toast.success('Todo Added Successfully')
-        setopenModel(false)
+      if(update === 'update'){
+        e.preventDefault()
       }else{
-        toast.error('Input Field(s) Cannot Be Empty')
+      e.preventDefault()
+            if(title && status){
+              dispatch(addTodo({
+                id: uuid(),
+                title,
+                status,
+                time : new Date().toLocaleString(),
+              }))  
+              toast.success('Todo Added Successfully')
+              setopenModel(false)
+            }else{
+              toast.error('Input Field(s) Cannot Be Empty')
+            }
       }
+     
       // console.log(title,status)
     }
 
