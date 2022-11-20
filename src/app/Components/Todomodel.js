@@ -54,7 +54,7 @@ function Todomodel({openModel,setopenModel,update,setUpdate}) { //distructure th
         <option value="Incomplete">Incomplete</option>
         </select> 
         </label>
-        <button type = "submit" className='add'>Add</button>
+        <button type = "submit" className='add'>{update === 'update' ? 'Update ' : 'Add' }</button>
         <button type = "button" onClick = {()=>setopenModel(false)} className='remove'>Cancle</button>
         
      </form>
