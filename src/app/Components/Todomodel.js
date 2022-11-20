@@ -14,6 +14,7 @@ function Todomodel({openModel,setopenModel,update,setUpdate}) { //distructure th
     const formSubmit = (e) =>{
       if(update === 'update'){
         e.preventDefault()
+        console.log('updating here')
       }else{
       e.preventDefault()
             if(title && status){
