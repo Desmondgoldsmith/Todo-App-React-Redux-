@@ -21,6 +21,7 @@ function IndividualTodos({todo}) {
     console.log("this todo is updated")
   }
   return (
+    <>
     <div className='todoItem'>
     <div className='todoDetails'>
         [] 
@@ -55,7 +56,8 @@ function IndividualTodos({todo}) {
         </div>
      </div>
     </div>
-
+    
+</>
   )
 }
 
