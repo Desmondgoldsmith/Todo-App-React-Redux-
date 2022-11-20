@@ -1,5 +1,5 @@
 // import { format } from 'date-fns'
-import React from 'react'
+import React,{useState} from 'react'
 import './individualTodos.css'
 import { MdDelete } from "react-icons/md";
 import { MdModeEdit } from "react-icons/md";
@@ -11,6 +11,7 @@ import Todomodel from './Todomodel';
 
 function IndividualTodos({todo}) {
   const dispatch = useDispatch()
+  const [update,setUpdate] = useState(true)
 
   const deleteTodos = () => {
     dispatch(deleteTodo(todo.id));
@@ -56,7 +57,7 @@ function IndividualTodos({todo}) {
         </div>
      </div>
     </div>
-     <Todomodel/>
+     <Todomodel />
     </>
   )
 }
