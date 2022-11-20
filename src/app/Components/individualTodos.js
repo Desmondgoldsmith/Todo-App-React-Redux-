@@ -5,9 +5,7 @@ import { MdDelete } from "react-icons/md";
 import { MdModeEdit } from "react-icons/md";
 import { useDispatch } from 'react-redux';
 import {deleteTodo} from '../../Slices/todoSlice';
-
 import toast from 'react-hot-toast';
-import Todomodel from './Todomodel';
 
 function IndividualTodos({todo}) {
   const dispatch = useDispatch()
@@ -21,7 +19,7 @@ function IndividualTodos({todo}) {
     console.log("this todo is updated")
   }
   return (
-    <>
+    
     <div className='todoItem'>
     <div className='todoDetails'>
         [] 
@@ -56,8 +54,7 @@ function IndividualTodos({todo}) {
         </div>
      </div>
     </div>
-    
-</>
+
   )
 }
 
