@@ -55,7 +55,7 @@ function IndividualTodos({todo}) {
         </div>
      </div>
     </div>
-
+     <Todomodel/>
     </>
   )
 }
