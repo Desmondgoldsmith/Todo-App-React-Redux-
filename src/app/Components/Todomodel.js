@@ -6,7 +6,7 @@ import { addTodo } from '../../Slices/todoSlice';
 import {v4 as uuid} from 'uuid'
 import toast from 'react-hot-toast';
 
-function Todomodel({openModel,setopenModel}) { //distructure the props obtained from the Todomodel page
+function Todomodel({openModel,setopenModel,update,setUpdate}) { //distructure the props obtained from the Todomodel page
     const [title,setTitle] = useState('')
     const [status,setStatus] = useState('Incomplete')
     const dispatch = useDispatch()

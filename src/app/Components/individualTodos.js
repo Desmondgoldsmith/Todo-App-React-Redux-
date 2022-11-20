@@ -57,7 +57,7 @@ function IndividualTodos({todo}) {
         </div>
      </div>
     </div>
-     <Todomodel />
+     <Todomodel update = {update} setUpdate={setUpdate} />
     </>
   )
 }
