@@ -68,7 +68,8 @@ function Todomodel({openModel,setopenModel,update,setUpdate}) { //distructure th
     </div>
     </div>
     )}
-    <IndividualTodos update = {update} setUpdate = {setUpdate} />
+    
+    <IndividualTodos update = {update} setUpdate = {setUpdate} /> {/*passing the state of the update variable as props to the individualTodos page so we can display update form  */}
 </div>
   )
 }
