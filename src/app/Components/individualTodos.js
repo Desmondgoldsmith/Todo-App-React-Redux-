@@ -11,7 +11,6 @@ import Todomodel from './Todomodel';
 
 function IndividualTodos({todo}) {
   const dispatch = useDispatch()
-  const [update,setUpdate] = useState(true)
 
   const deleteTodos = () => {
     dispatch(deleteTodo(todo.id));
@@ -22,7 +21,6 @@ function IndividualTodos({todo}) {
     console.log("this todo is updated")
   }
   return (
-    <>
     <div className='todoItem'>
     <div className='todoDetails'>
         [] 
@@ -57,8 +55,7 @@ function IndividualTodos({todo}) {
         </div>
      </div>
     </div>
-     <Todomodel update = {update} setUpdate={setUpdate} />
-    </>
+
   )
 }
 
