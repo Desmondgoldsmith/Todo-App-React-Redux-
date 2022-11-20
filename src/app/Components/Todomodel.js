@@ -44,7 +44,7 @@ function Todomodel({openModel,setopenModel,update,setUpdate}) { //distructure th
      </div>
      <form className='form' onSubmit={(e)=>formSubmit(e)} //passing the submitted values to a function (formSubmit)
      >
-        <h1>{update ? }</h1>
+        <h1>{update === 'update' ? 'UPDATE TODO' : 'ADD TODO' }</h1>
         <label className='title'>Title
         <input type = "text" value = {title} onChange = {(e)=>setTitle(e.target.value)} className='title_input'/> 
         </label>
