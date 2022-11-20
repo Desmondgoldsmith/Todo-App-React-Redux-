@@ -19,7 +19,7 @@ function IndividualTodos({todo,update,setUpdate,openModel,setopenModel}) {
     console.log("this todo is updated")
   }
   return (
-    
+    <>
     <div className='todoItem'>
     <div className='todoDetails'>
         [] 
@@ -54,7 +54,7 @@ function IndividualTodos({todo,update,setUpdate,openModel,setopenModel}) {
         </div>
      </div>
     </div>
-
+</>
   )
 }
 
