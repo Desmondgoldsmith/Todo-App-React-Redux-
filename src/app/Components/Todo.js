@@ -5,6 +5,7 @@ import Todomodel from './Todomodel'
 function Todo() {
   // state to store the status of the {Todomodel} to command it to open or close
   const [openModel,setopenModel] = useState(false) //openModel set to false hence Todomodel is hidden on page load
+  const [update,setUpdate] = useState('update')
 
   return (
     <div className='Todo'>
@@ -19,7 +20,7 @@ function Todo() {
         <option selected value="Complete">Complete</option>
       </select>
   </div>
-        <Todomodel openModel = {openModel} setopenModel = {setopenModel} /> {/* making the props available in the Todomodel page */} 
+        <Todomodel openModel = {openModel} setopenModel = {setopenModel} update = {update} setUpdate = {setUpdate} /> {/* making the props available in the Todomodel page */} 
     </div>
   )
 }
