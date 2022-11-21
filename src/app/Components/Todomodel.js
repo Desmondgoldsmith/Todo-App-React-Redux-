@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import './todoModel.css'
 import CloseIcon from '@mui/icons-material/Close';
 import { useDispatch } from 'react-redux';
@@ -15,6 +15,9 @@ function Todomodel({openModel,setopenModel,update,todo}) { //distructure the pro
       if(update === 'update' && todo){
          setTitle(todo.title)
          setStatus(todo.status)
+      }else{
+        setTitle("")
+         setStatus('Incomplete')
       }
     },[update,todo,setopenModel])
    
