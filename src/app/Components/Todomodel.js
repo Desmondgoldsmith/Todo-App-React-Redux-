@@ -16,7 +16,7 @@ function Todomodel({openModel,setopenModel,update,todo}) { //distructure the pro
          setTitle(todo.title)
          setStatus(todo.status)
       }
-    },[])
+    },[update,todo,setopenModel])
    
     const formSubmit = (e) =>{
       
