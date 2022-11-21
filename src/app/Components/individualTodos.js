@@ -1,6 +1,8 @@
 // import { format } from 'date-fns'
 import React,{useState} from 'react'
 import './individualTodos.css'
+import './todoModel.css'
+
 import { MdDelete } from "react-icons/md";
 import { MdModeEdit } from "react-icons/md";
 import { useDispatch } from 'react-redux';
