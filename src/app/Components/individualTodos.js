@@ -10,7 +10,7 @@ import Todomodel from './Todomodel';
 
 function IndividualTodos({todo,update,setUpdate}) {
   const dispatch = useDispatch()
-  const [openModel,setopenModel] = useState(false)
+  const [openupdateModel,setopenupdateModel] = useState(false)
 
   const deleteTodos = () => {
     dispatch(deleteTodo(todo.id));
@@ -18,7 +18,7 @@ function IndividualTodos({todo,update,setUpdate}) {
   }
 
   const updateTodo = () => {
-    setopenModel(true)
+    setopenupdateModel(true)
   }
   return (
     <>
@@ -56,7 +56,7 @@ function IndividualTodos({todo,update,setUpdate}) {
         </div>
      </div>
     </div>
-    <Todomodel/>
+    <Todomodel openModel = {openupdateModel} setopenModel={openupdateModel}/>
 </>
   )
 }
