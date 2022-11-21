@@ -57,7 +57,7 @@ function IndividualTodos({todo,update,setUpdate}) {
         </div>
      </div>
     </div>
-    <Todomodel openModel = {openupdateModel} setopenModel={openupdateModel} update = 'update'/>
+    <Todomodel openModel = {openupdateModel} setopenModel={openupdateModel} openupdateModel = {false} update = 'update'/>
 </>
   )
 }
