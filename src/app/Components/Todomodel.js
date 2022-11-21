@@ -16,7 +16,7 @@ function Todomodel({openModel,setopenModel,update,todo}) { //distructure the pro
       e.preventDefault()
             if(title && status){
               if(update === 'update'){
-                if(todo.title === title || todo.status === status){
+                if(todo.title !== title || todo.status !== status){
 
                 }
 
