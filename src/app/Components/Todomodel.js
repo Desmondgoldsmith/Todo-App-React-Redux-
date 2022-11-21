@@ -13,7 +13,8 @@ function Todomodel({openModel,setopenModel,update,todo}) { //distructure the pro
 
     useEffect(()=>{
       if(update === 'update' && todo){
-        
+         setTitle(todo.title)
+         setStatus(todo.status)
       }
     },[])
    
