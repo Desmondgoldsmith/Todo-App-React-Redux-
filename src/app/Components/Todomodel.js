@@ -24,7 +24,7 @@ function Todomodel({openModel,setopenModel,update,todo}) { //distructure the pro
                     }))
                     toast.success('Todo Updated Successfully')
                 }else{
-                  toast.error('Input Field(s) Cannot Be Empty')
+                  toast.error('No changes made')
                 }
               }
               
