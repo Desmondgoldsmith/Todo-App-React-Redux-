@@ -59,7 +59,7 @@ export const todoSlice = createSlice({
                 }
             })
             window.localStorage.setItem('todoList',JSON.stringify(todoListArray))
-            state.todoList = todoListArray
+            state.todoList = [...todoListArray]
 
         }
      }
