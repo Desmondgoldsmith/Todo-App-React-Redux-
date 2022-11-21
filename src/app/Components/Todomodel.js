@@ -22,10 +22,10 @@ function Todomodel({openModel,setopenModel,update,todo}) { //distructure the pro
                       title,
                       status
                     }))
+                    toast.success('Todo Updated Successfully')
+                }else{
+                  toast.error('Input Field(s) Cannot Be Empty')
                 }
-
-                
-                toast.error('Input Field(s) Cannot Be Empty')
               }
               
               if(update === 'add'){
