@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import './todoModel.css'
 import CloseIcon from '@mui/icons-material/Close';
 import { useDispatch } from 'react-redux';
-import { addTodo } from '../../Slices/todoSlice';
+import { addTodo,updateTodo } from '../../Slices/todoSlice';
 import {v4 as uuid} from 'uuid'
 import toast from 'react-hot-toast';
 
@@ -17,7 +17,11 @@ function Todomodel({openModel,setopenModel,update,todo}) { //distructure the pro
             if(title && status){
               if(update === 'update'){
                 if(todo.title !== title || todo.status !== status){
-
+                    dispatch(updateTodo(
+                      ...todo,
+                      title,
+                      status
+                    ))
                 }
 
                 
