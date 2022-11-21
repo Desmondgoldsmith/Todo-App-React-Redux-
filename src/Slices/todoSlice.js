@@ -54,7 +54,7 @@ export const todoSlice = createSlice({
             const todoListArray = JSON.parse(todoList)
             todoListArray.forEach((todo,index)=> {
                 if(todoList.id === action.payload.id){
-                    
+                    todo.status = action.payload.status
                 }
             })
 
