@@ -10,6 +10,12 @@ function Todomodel({openModel,setopenModel,update,todo}) { //distructure the pro
     const [title,setTitle] = useState('')
     const [status,setStatus] = useState('Incomplete')
     const dispatch = useDispatch()
+
+    useEffect(()=>{
+      if(update === 'update' && todo){
+        
+      }
+    },[])
    
     const formSubmit = (e) =>{
       
