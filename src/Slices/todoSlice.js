@@ -50,6 +50,12 @@ export const todoSlice = createSlice({
      },
      updateTodo : (state,action) => {
         const todoList = window.localStorage.getItem('todoList')
+        if(todoList){
+            const todoListArray = JSON.parse(todoList)
+            todoListArray.forEach((todo,index)=> {}
+
+
+        }
      }
        
     }
