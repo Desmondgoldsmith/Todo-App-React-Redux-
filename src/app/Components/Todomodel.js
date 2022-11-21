@@ -18,8 +18,9 @@ function Todomodel({openModel,setopenModel,update,setUpdate}) { //distructure th
               if(update === 'update'){
                 console.log('updating here')
                 toast.error('Input Field(s) Cannot Be Empty')
-        
-              }else{
+              }
+              
+              if(update === 'add'){
               dispatch(addTodo({
                 id: uuid(),
                 title,
