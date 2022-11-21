@@ -49,7 +49,7 @@ export const todoSlice = createSlice({
         }
      },
      updateTodo : (state,action) => {
-        
+        const todoList = window.localStorage.getItem('todoList')
      }
        
     }
