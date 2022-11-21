@@ -17,11 +17,11 @@ function Todomodel({openModel,setopenModel,update,todo}) { //distructure the pro
             if(title && status){
               if(update === 'update'){
                 if(todo.title !== title || todo.status !== status){
-                    dispatch(updateTodo(
+                    dispatch(updateTodo({
                       ...todo,
                       title,
                       status
-                    ))
+                    }))
                 }
 
                 
