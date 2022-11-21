@@ -6,7 +6,7 @@ import { addTodo } from '../../Slices/todoSlice';
 import {v4 as uuid} from 'uuid'
 import toast from 'react-hot-toast';
 
-function Todomodel({openModel,setopenModel,update}) { //distructure the props obtained from the Todomodel page
+function Todomodel({openModel,setopenModel,update,todo}) { //distructure the props obtained from the Todomodel page
     const [title,setTitle] = useState('')
     const [status,setStatus] = useState('Incomplete')
     const dispatch = useDispatch()
@@ -16,7 +16,11 @@ function Todomodel({openModel,setopenModel,update}) { //distructure the props ob
       e.preventDefault()
             if(title && status){
               if(update === 'update'){
-                console.log('updating here')
+                if(todo.title === title || todo.status === status){
+
+                }
+
+                
                 toast.error('Input Field(s) Cannot Be Empty')
               }
               
